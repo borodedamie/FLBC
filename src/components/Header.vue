@@ -1,0 +1,22 @@
+<template>
+    <header style="padding:128px 16px; ">
+        <div >
+            <h1>
+                Family Life Bible Church
+            </h1>
+        </div>
+    </header>
+</template>
+
+<script>
+
+export default {
+    
+}
+</script>
+
+<style scoped>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+</style>
