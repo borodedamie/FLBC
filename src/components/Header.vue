@@ -1,12 +1,25 @@
 <template>
-    <header style="padding:128px 16px; ">
-        <div >
-            <h1>
-                Family Life Bible Church
-            </h1>
-        </div>
-    </header>
+  <v-jumbotron>
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+          <h3 class="display-3">Family Life Bible Church</h3>
+
+          <span class="subheading">We exist to win souls, transform lives and incorporate them into the family of God.</span>
+
+          <v-divider class="my-3"></v-divider>
+
+          <div class="title mb-3">Check out our weekly programmes!</div>
+
+          <v-btn large outline color="indigo">
+            See more
+          </v-btn>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
 </template>
+
 
 <script>
 
@@ -16,7 +29,8 @@ export default {
 </script>
 
 <style scoped>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-    .fa-anchor,.fa-coffee {font-size:200px}
+    h3 {
+        text-align: justify;
+    }
+    
 </style>
