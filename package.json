@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "lodash": "^4.17.14",
     "vue": "^2.6.10",
     "vuetify": "^1.5.16"
   },
